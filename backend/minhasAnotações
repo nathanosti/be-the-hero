@@ -1,0 +1,27 @@
+
+/**
+ * Métodos HTTP:
+ * 
+ * GET: Buscar uma informação no back-end;
+ * POST: Colocar uma informação no back-end;
+ * PUT: Alterar uma informação no back-end;
+ * DELETE: Deletar uma informação no back-end
+ */
+
+ /**
+  * Tipos de parâmetros:
+  * 
+  * Query: Parâmetros nomeados e enviados na rota após o "?" (Filtros, Paginação, etc) (ACESSADO VIA '.query')
+  * Route Params: Parâmetros utilizados para identificar recursos (ACESSADO VIA '.params')
+  * Request Body: Corpo da requisição, utilizado para criar recursos (ACESSADO VIA '.body')
+  */
+
+  /**
+   * Banco de Dados utilizado será: SQLite
+   * 
+   * Driver: SELECT * FROM users
+   * //O Query builder pode ser usado em qualquer banco SQL(MySQL, SQLite, PostgreSQL, e etc)
+   * Query Builder: table('users').select(*).where()
+   * O Query builder utilizado sera o knex.js 
+   */
+
